@@ -17,11 +17,6 @@ Install the dependencies
 $> npm install
 ```
 
-Install the browser (chromium)
-```
-$> npm run install-browser
-```
-
 ## Running tests
 
 To run tests, run
