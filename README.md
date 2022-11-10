@@ -25,7 +25,7 @@ To run tests, run
 $> npm run test
 ```
 
-To generate HTML report, run
+To generate and show HTML report
 
 ```
 $> npm run report
