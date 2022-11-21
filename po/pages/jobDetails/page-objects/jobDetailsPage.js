@@ -6,8 +6,7 @@ class JobDetailsPage {
     ) { this.url = url };
 
     async isJobDetailsPageLoaded() {
-        const jobDescription = await page.locator(selectors["Job Description"]);
-         return jobDescription.isVisible();
+        return page.locator(selectors["Job Description"]).isVisible();
     }
 }
 
