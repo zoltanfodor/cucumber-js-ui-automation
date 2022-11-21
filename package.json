@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "JavaScript based UI automation project using cucumber-js",
   "scripts": {
-    "test": "cucumber-js --require configs/cucumber.conf.js --require step_definitions/*.js -f json:report/cucumber_report.json",
+    "start": "cucumber-js --require configs/cucumber.conf.js --require step_definitions/*.js -f json:report/cucumber_report.json",
+    "test": "npm start features/EPAM.feature",
     "report": "cucumber-js --require configs/reporter.conf.js"
   },
   "repository": {
